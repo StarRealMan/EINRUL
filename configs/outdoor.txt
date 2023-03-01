@@ -1,0 +1,46 @@
+min_ang = 20.0
+min_trans = 0.15
+# min_trans = 0.20
+
+exp_name = bridge
+data_path = ~/data/outdoor_avia
+scene_path = ~/scene/outdoor_avia
+data_type = self-collected
+device = cuda:0
+
+netdepth = 2
+netwidth = 64
+direct_loss_lambda = 1.0
+depth_loss_lambda = 0.0
+normal_loss_lambda = 0.4
+bbox = 15.0
+
+map_lr = 1e-3
+pose_lr = 1e-3
+# pose_lr = 1.5e-3
+
+sample_rays =100
+ray_points = 32
+variance = 0.3
+normal_eps = 0.005
+# normal_eps = 0.01
+stratified_portion = 0.25
+weight_coe = 2.83
+max_dist = 10.0
+# max_dist = 20.0
+iteration = 300
+pose_milestone = 150
+log_step = 50
+
+empty_cache
+eval_mesh
+
+render_near = 0.2
+render_far = 12.0
+mesh_reso = 512
+eval_chunk = 1000000
+voxel_size = 0.2
+
+image_height = 480
+fov_x = 70.4
+fov_y = 77.2

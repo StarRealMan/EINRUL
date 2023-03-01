@@ -1,0 +1,40 @@
+min_ang = 20.0
+min_trans = 0.15
+pseudo_lidar_point = 15000
+
+exp_name = breakfast_room
+data_path = ~/data/9-synthetic-scenes
+scene_path = ~/scene/9-synthetic-scenes
+data_type = 9-synthetic-scenes
+device = cuda:0
+
+netdepth = 2
+netwidth = 64
+direct_loss_lambda = 1.0
+depth_loss_lambda = 0.0
+normal_loss_lambda = 0.4
+bbox = 15.0
+
+map_lr = 1e-3
+pose_lr = 1e-3
+
+sample_rays = 100
+ray_points = 32
+variance = 0.3
+normal_eps = 0.005
+stratified_portion = 0.25
+weight_coe = 2.83
+max_dist = 12.0
+iteration = 300
+pose_milestone = 150
+log_step = 50
+
+pseudo_lidar
+empty_cache
+eval_mesh
+
+render_near = 0.1
+render_far = 8.0
+mesh_reso = 512
+eval_chunk = 1000000
+voxel_size = 0.05
