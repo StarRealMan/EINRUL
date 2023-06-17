@@ -18,14 +18,14 @@ This repository contains code for the paper Efficient Implicit Neural Reconstruc
 conda env create -f environment.yml
 conda activate linof
 ```
-Install [PyPangolin](https://github.com/uoip/pangolin) to enable visualization
+Install [PyPangolin](https://github.com/uoip/pangolin) to enable real-time visualization of the pose optimzation.
 
 ## Dataset
 We test our code in [9-Synthetic-Scenes](https://github.com/dazinovic/neural-rgbd-surface-reconstruction#dataset), [ScanNet](http://www.scan-net.org/) and [Replica](https://github.com/facebookresearch/Replica-Dataset) dataset.
 We also build a self-collected LiDAR scan dataset using [Livox AVIA](https://www.livoxtech.com/avia).
 We have packed the scenes we test in the paper, and you can download them [here](https://drive.google.com/file/d/10Ggh1cv-6MVeMkttL8D75axXOvRR62hW/view?usp=sharing) (about 4.96 GB).
 Since color information is not needed in our method, we only include depth images and LiDAR scans in the dataset.
-For convience, we reformat 9-Synthetic-Scenes and Replica dataset into the same as ScanNet dataset.
+For convenience, we reformat 9-Synthetic-Scenes and Replica dataset into the same as ScanNet dataset.
 The path format of the data is shown below.
 ### 9-Sythetic-Scenes
 <details><summary><em>[Click to expand]</em></summary>
