@@ -239,9 +239,13 @@ Finally after evaluation, the format of the scene path will become:
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
-@InProceedings{yan2023efficient,
-  author = {Dongyu Yan, Xiaoyang Lyu, Jieqi Shi, Yi Lin},
-  title = {Efficient Implicit Neural Reconstruction Using LiDAR},
-  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
-  year = {2023}}
+@INPROCEEDINGS{10160322,
+  author={Yan, Dongyu and Lyu, Xiaoyang and Shi, Jieqi and Lin, Yi},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Efficient Implicit Neural Reconstruction Using LiDAR}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={8407-8414},
+  doi={10.1109/ICRA48891.2023.10160322}}
 ```
