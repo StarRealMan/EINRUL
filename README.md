@@ -1,7 +1,7 @@
 # EINRUL
 Efficient Implicit Neural Reconstruction Using LiDAR
 
-### [Paper](https://arxiv.org/abs/2302.14363) | [Project Page](https://starydy.xyz/EINRUL) | [Video](https://www.youtube.com/watch?v=wUp2I-X-IdI)
+### [Paper](https://arxiv.org/abs/2302.14363) | [Project Page](https://einrul.starydy.xyz) | [Video](https://www.youtube.com/watch?v=wUp2I-X-IdI)
 
 > Efficient Implicit Neural Reconstruction Using LiDAR <br />
 > Dongyu Yan, Xiaoyang Lyu, Jieqi Shi and Yi Lin <br />
